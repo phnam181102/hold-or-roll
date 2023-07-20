@@ -18,7 +18,7 @@ let currentScore, currentPlayer, totalScore, playing;
 const init = () => {
     currentScore = 0;
     currentPlayer = 0;
-    totalScore = [80, 80];
+    totalScore = [0, 0];
     playing = true;
 
     diceEl.classList.add('hidden');
